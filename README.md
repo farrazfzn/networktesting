@@ -1,58 +1,71 @@
 # Home Network Audit & Wi-Fi Optimization
 
 ## 📌 Overview
-This project demonstrates a hands-on audit and basic analysis of a home network environment using a ZTE ZXHN F670L router and Windows networking tools.
+
+This project documents a hands-on home network audit performed using a ZTE ZXHN F670L router and Windows networking tools. The objective was to understand IP addressing, DHCP, DNS, Wi-Fi security, and connected device management while following basic IT Support practices.
+
+---
 
 ## 🎯 Objectives
-- Understand fundamental networking concepts.
-- Inspect router configuration safely.
-- Analyze DHCP, DNS, and IP addressing.
-- Review Wi-Fi security settings.
-- Identify connected devices.
 
-## 🛠 Tools Used
-- Windows Command Prompt
-- ZTE ZXHN F670L Router
-- ipconfig
-- ping
-- Web Browser
+- Analyze home network configuration.
+- Inspect router administration settings safely.
+- Review DHCP allocation and DNS behavior.
+- Identify connected devices using IP and MAC addresses.
+- Understand Wi-Fi security configuration.
+- Practice basic network troubleshooting.
 
-## 📚 Activities Performed
+---
 
-### 1. Network Inspection
-- Checked IPv4 Address
-- Identified Default Gateway
-- Reviewed DNS configuration
+## 🛠 Environment
 
-### 2. Router Administration
-- Logged into router management page
-- Reviewed connected devices
-- Inspected Wi-Fi settings
-- Reviewed DHCP configuration
+| Component | Details |
+|-----------|---------|
+| Router | ZTE ZXHN F670L |
+| Client OS | Windows 11 |
+| Network Type | Home LAN |
+| Address Range | 192.168.1.0/24 |
+| Gateway | 192.168.1.1 |
 
-### 3. Wireless Configuration Review
-- Verified WPA2-PSK-AES encryption
-- Compared 2.4 GHz and 5 GHz settings
+---
 
-## 🖥 Sample Topology
+## 🔍 Activities Performed
 
-Internet
-↓
-ISP
-↓
-ZTE Router (192.168.1.1)
-├── Laptop
-├── Smartphone
-├── Xiaomi Repeater
-└── Other Devices
+- Examined local IP configuration using `ipconfig`
+- Verified network connectivity using `ping`
+- Accessed router administration interface
+- Reviewed DHCP server configuration
+- Inspected connected wireless devices
+- Reviewed WPA2 wireless security configuration
+- Compared 2.4 GHz and 5 GHz wireless settings
 
-## 📷 Documentation
-See the `screenshots/` folder for configuration snapshots.
+---
 
-## 📖 Skills Demonstrated
-- Network Fundamentals
+## 📈 Skills Demonstrated
+
+- TCP/IP Fundamentals
+- DHCP Concepts
+- DNS Concepts
+- Gateway Identification
 - Router Administration
-- DHCP Analysis
-- DNS Understanding
-- Wi-Fi Security Review
-- Basic Network Troubleshooting
+- Wi-Fi Security
+- Basic Troubleshooting
+- Device Identification using MAC Address
+
+---
+
+## 📸 Documentation
+
+See `/screenshots` for captured configuration screens.
+
+---
+
+## 🗺 Network Topology
+
+See `/docs/network-topology.png`.
+
+---
+
+## 🚀 Learning Outcome
+
+Successfully performed a structured home network audit and gained practical experience in router administration, DHCP analysis, and Wi-Fi configuration applicable to entry-level IT Support and Network roles.
